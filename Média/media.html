@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cálculo da Média</title>
+	<script src="../JS/scriptmedia.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/estilomedia.css">
+</head>
+<body id="fundopagina">
+
+<div id="q1">	
+<h2 id="cabec">Cálculo da Média</h2>
+
+
+<form name="frmcalcmedia">
+	<div id="q2">
+
+<label>Digite o número</label>
+<input type="text" id="txtnumero"><br><br>
+
+
+<label>Digite o nome</label>
+<input type="text" id="txtnome"><br><br>
+
+
+<label>Digite a 1ª nota</label>
+<input type="text" id="txtnota1"><br><br>
+
+
+<label>Digite a 2ª nota</label>
+<input type="text" id="txtnota2"><br><br>
+
+<label>Média Calculada</label>
+<input type="text" id="txtmedia" readonly><br><br>
+
+<label>Conceito</label>
+<input type="text" id="txtconceito" readonly><br><br>
+</div>
+
+<div id="botoes">
+<input type="button" id="btncalcular" value="Calcular" onclick="calculo()">
+<input type="reset" id="btncancelar" value="Cancelar" onclick="cancelar()">
+</div>
+
+</form>
+</div>
+</body>
+</html>
